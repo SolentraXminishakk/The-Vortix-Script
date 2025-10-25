@@ -1,5 +1,5 @@
 local id = game.PlaceId
-
+if getgenv().isWhitelisted = true then
 if id == 99567941238278 then
 loadstring(game:HttpGet("https://gist.githubusercontent.com/amaan626/01d20fdde1b2d79f61cd5f30781f893a/raw/f01b49741fc759398a22e096f51710f13261c51b/inkgames"))()
 elseif id == 137925884276740 then
@@ -16,4 +16,5 @@ loadstring(game:HttpGet("https://gist.githubusercontent.com/amaan626/198da31e898
 loadstring(game:HttpGet("https://gist.githubusercontent.com/amaan626/a77265050ae0d24bbfc8b839be70e987/raw/5627e93ab1d9142859de1bdd4b57678faeeaf9b0/Apocalypse%20Tycoon"))()
       elseif id == 12402669933 then
 loadstring(game:HttpGet("https://gist.githubusercontent.com/amaan626/a77265050ae0d24bbfc8b839be70e987/raw/5627e93ab1d9142859de1bdd4b57678faeeaf9b0/Apocalypse%20Tycoon"))()
+end
 end
