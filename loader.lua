@@ -1,5 +1,5 @@
 local id = game.PlaceId
-
+if getgenv().isWhitelisted == true then
 if id == 99567941238278 then
     loadstring(game:HttpGet("https://gist.githubusercontent.com/amaan626/01d20fdde1b2d79f61cd5f30781f893a/raw/f01b49741fc759398a22e096f51710f13261c51b/inkgames"))()
 elseif id == 137925884276740 then
@@ -18,4 +18,7 @@ elseif id == 142823291 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SolentraXminishakk/mm2/refs/heads/main/s.lua"))()
 else
     warn("⚠️ Unsupported game: " .. id)
+end
+else
+	game.Players.LocalPlayer:Kick("Verify With the Authenticator First!")
 end
