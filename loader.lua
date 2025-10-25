@@ -14,6 +14,8 @@ elseif id == 88728793053496 then
     loadstring(game:HttpGet("https://gist.githubusercontent.com/amaan626/198da31e898ac76089a9ba5db1836f8a/raw/d78cac0387207fff288e89c8a5734b3551c1103c/BuildaCar"))()
 elseif id == 12402669933 then
     loadstring(game:HttpGet("https://gist.githubusercontent.com/amaan626/a77265050ae0d24bbfc8b839be70e987/raw/5627e93ab1d9142859de1bdd4b57678faeeaf9b0/Apocalypse%20Tycoon"))()
+elseif id == 142823291 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SolentraXminishakk/mm2/refs/heads/main/s.lua"))()
 else
     warn("⚠️ Unsupported game: " .. id)
 end
